@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Wed Oct 30 15:16:43 2024
+# Process ID: 11840
+# Current directory: D:/COA_LAB/Final Assignments/Processor_With_Memory/RISC_Customized_ALU_Submission
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7596 D:\COA_LAB\Final Assignments\Processor_With_Memory\RISC_Customized_ALU_Submission\Reg_Bank_and_ALU_Lab_Submission.xpr
+# Log file: D:/COA_LAB/Final Assignments/Processor_With_Memory/RISC_Customized_ALU_Submission/vivado.log
+# Journal file: D:/COA_LAB/Final Assignments/Processor_With_Memory/RISC_Customized_ALU_Submission\vivado.jou
+#-----------------------------------------------------------
+start_gui
+eopenINFO: [Common 17-206] Exiting Vivado at Wed Oct 30 15:17:24 2024...
+stomized_ALU_Submission/Reg_Bank_and_ALU_Lab_Submission.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/COA_LAB/Final Assignments/Processor_With_Memory/RISC_Customized_ALU_Submission'
+INFO: [Project 1-313] Project file moved from 'D:/Third Year/COA Lab/COA Final Shit/RISC_Customized_ALU_Submission' since last save.
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorGccInstallDirModelSim has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorGccInstallDirQuesta has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorGccInstallDirXcelium has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorGccInstallDirVCS has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorGccInstallDirRiviera has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorGccInstallDirActiveHdl has no valid value
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionXsim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionModelSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionQuesta
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionXcelium
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionVCS
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionRiviera
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionActiveHdl
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionXsim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionModelSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionQuesta
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionXcelium
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionVCS
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionRiviera
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionActiveHdl
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'D:/COA_LAB/Final Assignments/Processor_With_Memory/RISC_Customized_ALU_Submission/Reg_Bank_and_ALU_Lab_Submission.gen/sources_1', nor could it be found using path 'D:/Third Year/COA Lab/COA Final Shit/RISC_Customized_ALU_Submission/Reg_Bank_and_ALU_Lab_Submission.gen/sources_1'.
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name EnableResourceEstimation
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimCompileState
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name ClassicSocBoot
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name LocalIPRepoLeafDirName
+WARNING: [Project 1-231] Project 'Reg_Bank_and_ALU_Lab_Submission.xpr' was created with a future version and may or may not perform reliably with this version of Vivado. It has been opened in read-only mode for the protection of unrecognized data. Use 'File | Save Project As...' if you wish to alter a copy of the project.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:33 . Memory (MB): peak = 1082.887 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 30 15:18:39 2024...

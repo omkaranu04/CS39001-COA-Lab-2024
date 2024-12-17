@@ -1,0 +1,46 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ALU_Design_2.srcs/sources_1/new/ALU_Adder.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/ALU_Divide.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/ALU_Ham.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/ALU_Multiply.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/ALU_Subtractor.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/AND_8Bit.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/Adder_2Bit.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/Adder_3Bit.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/Full_Adder.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/MUX_16to1.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/MUX_2to1.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/MUX_4to1.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/MUX_8to1.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/NEG_8Bit.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/OR_8Bit.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/Twos_Complement.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/XOR_8Bit.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/ALU.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/ALU_Barrel_Left.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/ALU_Barrel_Right.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/ALU_Barrel_Arith_Right.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/Register_Bank.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/ControlPath.v" \
+"../../../../ALU_Design_2.srcs/sources_1/new/Master_Interface.v" \
+"../../../../ALU_Design_2.srcs/sim_1/new/ALU_Adder_TB.v" \
+"../../../../ALU_Design_2.srcs/sim_1/new/ALU_Barrel_Shift_TB.v" \
+"../../../../ALU_Design_2.srcs/sim_1/new/ALU_Dec4_TB.v" \
+"../../../../ALU_Design_2.srcs/sim_1/new/ALU_Divide_TB.v" \
+"../../../../ALU_Design_2.srcs/sim_1/new/ALU_Ham_TB.v" \
+"../../../../ALU_Design_2.srcs/sim_1/new/ALU_Inc4_TB.v" \
+"../../../../ALU_Design_2.srcs/sim_1/new/ALU_Multiply_TB.v" \
+"../../../../ALU_Design_2.srcs/sim_1/new/ALU_Shift_Left_TB.v" \
+"../../../../ALU_Design_2.srcs/sim_1/new/ALU_Shift_Right_Arithmetic_TB.v" \
+"../../../../ALU_Design_2.srcs/sim_1/new/ALU_Shift_Right_Logical_TB.v" \
+"../../../../ALU_Design_2.srcs/sim_1/new/ALU_Subtractor_TB.v" \
+"../../../../ALU_Design_2.srcs/sim_1/new/ALU_TB.v" \
+"../../../../ALU_Design_2.srcs/sim_1/new/ALU_Barrel_Left_TB.v" \
+"../../../../ALU_Design_2.srcs/sim_1/new/master_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

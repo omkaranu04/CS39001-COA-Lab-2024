@@ -1,0 +1,366 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Tue Sep 10 16:38:30 2024
+# Process ID: 9940
+# Current directory: D:/COA_LAB/Group7/GRP7_KALU_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1488 D:\COA_LAB\Group7\GRP7_KALU_1\ALU_Design_2.xpr
+# Log file: D:/COA_LAB/Group7/GRP7_KALU_1/vivado.log
+# Journal file: D:/COA_LAB/Group7/GRP7_KALU_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Student/Downloads/ALU_Design_2' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Shift_Left.v', nor could it be found using path 'C:/Users/Student/Downloads/ALU_Design_2/ALU_Design_2.srcs/sources_1/new/ALU_Shift_Left.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Shift_Right_Arithmetic.v', nor could it be found using path 'C:/Users/Student/Downloads/ALU_Design_2/ALU_Design_2.srcs/sources_1/new/ALU_Shift_Right_Arithmetic.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Shift_Right_Logical.v', nor could it be found using path 'C:/Users/Student/Downloads/ALU_Design_2/ALU_Design_2.srcs/sources_1/new/ALU_Shift_Right_Logical.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:16 . Memory (MB): peak = 1292.469 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 10 17:13:01 2024...
+ching behavioral simulation in 'D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj ALU_TB_vlog.prj"
+ERROR: [XSIM 43-4316] Can not find file: ../../../../ALU_Design_2.srcs/sources_1/new/ALU_Shift_Left.v
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+export_ip_user_files -of_objects  [get_files D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Shift_Left.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Shift_Right_Arithmetic.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Shift_Right_Logical.v] -no_script -reset -force -quiet
+remove_files  {D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Shift_Left.v D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Shift_Right_Arithmetic.v D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Shift_Right_Logical.v}
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj ALU_TB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Divide.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Divide
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Ham.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Ham
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Multiply.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Multiply
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/AND_8Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/Adder_2Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_2Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/Adder_3Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_3Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/Full_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fulladder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/MUX_16to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/MUX_2to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/MUX_4to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/MUX_8to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/NEG_8Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_NEGATION
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/OR_8Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/Twos_Complement.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Twos_Complement
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/XOR_8Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Barrel_Left.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Barrel_Left
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Barrel_Right.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Barrel_Right
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Barrel_Arith_Right.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Barrel_Arithmetic_Right
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Adder_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Adder_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Barrel_Shift_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Barrel_Shift_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Dec4_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Dec4_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Divide_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Divide_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Ham_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Ham_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Inc4_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Inc4_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Multiply_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Multiply_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Shift_Left_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Shift_Left_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Shift_Right_Arithmetic_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Shift_Right_Arithmetic_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Shift_Right_Logical_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Shift_Right_Logical_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Subtractor_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Subtractor_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Barrel_Left_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ALU_Barrel_Left
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.sim/sim_1/behav/xsim'
+"xelab -wto 8cacbdae32c444aabe18429a03f2320a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_TB_behav xil_defaultlib.ALU_TB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 8cacbdae32c444aabe18429a03f2320a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_TB_behav xil_defaultlib.ALU_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c0' [D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Ham.v:30]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c0' [D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Ham.v:31]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c0' [D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Ham.v:32]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c0' [D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Ham.v:33]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c0' [D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/Adder_2Bit.v:30]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c0' [D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/Adder_3Bit.v:31]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.fulladder
+Compiling module xil_defaultlib.ALU_Adder_default
+Compiling module xil_defaultlib.Twos_Complement(SIZE=8)
+Compiling module xil_defaultlib.ALU_Subtractor
+Compiling module xil_defaultlib.ALU_Multiply
+Compiling module xil_defaultlib.ALU_Divide
+Compiling module xil_defaultlib.ALU_AND_default
+Compiling module xil_defaultlib.ALU_OR_default
+Compiling module xil_defaultlib.ALU_XOR_default
+Compiling module xil_defaultlib.ALU_NEGATION_default
+Compiling module xil_defaultlib.ALU_Barrel_Left_default
+Compiling module xil_defaultlib.ALU_Barrel_Right_default
+Compiling module xil_defaultlib.ALU_Barrel_Arithmetic_Right_defa...
+Compiling module xil_defaultlib.Adder_2Bit
+Compiling module xil_defaultlib.Adder_3Bit
+Compiling module xil_defaultlib.ALU_Ham
+Compiling module xil_defaultlib.MUX_2to1
+Compiling module xil_defaultlib.MUX_4to1
+Compiling module xil_defaultlib.MUX_8to1
+Compiling module xil_defaultlib.MUX_16to1
+Compiling module xil_defaultlib.ALU_default
+Compiling module xil_defaultlib.ALU_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_TB_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1492.609 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_TB_behav -key {Behavioral:sim_1:Functional:ALU_TB} -tclbatch {ALU_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1.1
+Time resolution is 1 ps
+source ALU_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+a_in = 10101010, b_in = 00000010, cin = 0, diff = 10101000, c = 1
+a_in = 10101010, b_in = 00000100, cin = 0, diff = 10100110, c = 1
+xxxxxxxx : 
+$finish called at time : 260 ns : File "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_TB.v" Line 73
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 1492.609 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj ALU_TB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Divide.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Divide
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Ham.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Ham
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Multiply.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Multiply
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/AND_8Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/Adder_2Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_2Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/Adder_3Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_3Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/Full_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fulladder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/MUX_16to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/MUX_2to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/MUX_4to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/MUX_8to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/NEG_8Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_NEGATION
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/OR_8Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/Twos_Complement.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Twos_Complement
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/XOR_8Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Barrel_Left.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Barrel_Left
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Barrel_Right.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Barrel_Right
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Barrel_Arith_Right.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Barrel_Arithmetic_Right
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Adder_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Adder_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Barrel_Shift_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Barrel_Shift_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Dec4_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Dec4_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Divide_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Divide_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Ham_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Ham_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Inc4_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Inc4_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Multiply_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Multiply_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Shift_Left_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Shift_Left_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Shift_Right_Arithmetic_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Shift_Right_Arithmetic_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Shift_Right_Logical_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Shift_Right_Logical_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Subtractor_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Subtractor_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_Barrel_Left_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ALU_Barrel_Left
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.sim/sim_1/behav/xsim'
+"xelab -wto 8cacbdae32c444aabe18429a03f2320a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_TB_behav xil_defaultlib.ALU_TB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 8cacbdae32c444aabe18429a03f2320a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_TB_behav xil_defaultlib.ALU_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c0' [D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Ham.v:30]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c0' [D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Ham.v:31]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c0' [D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Ham.v:32]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c0' [D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Ham.v:33]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c0' [D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/Adder_2Bit.v:30]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c0' [D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/Adder_3Bit.v:31]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.fulladder
+Compiling module xil_defaultlib.ALU_Adder_default
+Compiling module xil_defaultlib.Twos_Complement(SIZE=8)
+Compiling module xil_defaultlib.ALU_Subtractor
+Compiling module xil_defaultlib.ALU_Multiply
+Compiling module xil_defaultlib.ALU_Divide
+Compiling module xil_defaultlib.ALU_AND_default
+Compiling module xil_defaultlib.ALU_OR_default
+Compiling module xil_defaultlib.ALU_XOR_default
+Compiling module xil_defaultlib.ALU_NEGATION_default
+Compiling module xil_defaultlib.ALU_Barrel_Left_default
+Compiling module xil_defaultlib.ALU_Barrel_Right_default
+Compiling module xil_defaultlib.ALU_Barrel_Arithmetic_Right_defa...
+Compiling module xil_defaultlib.Adder_2Bit
+Compiling module xil_defaultlib.Adder_3Bit
+Compiling module xil_defaultlib.ALU_Ham
+Compiling module xil_defaultlib.MUX_2to1
+Compiling module xil_defaultlib.MUX_4to1
+Compiling module xil_defaultlib.MUX_8to1
+Compiling module xil_defaultlib.MUX_16to1
+Compiling module xil_defaultlib.ALU_default
+Compiling module xil_defaultlib.ALU_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_TB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_TB_behav -key {Behavioral:sim_1:Functional:ALU_TB} -tclbatch {ALU_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1.1
+Time resolution is 1 ps
+source ALU_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+a_in = 10101010, b_in = 00000010, cin = 0, diff = 10101000, c = 1
+a_in = 10101010, b_in = 00000100, cin = 0, diff = 10100110, c = 1
+10101100 : 
+10101000 : 
+01010100 : 
+01010101 : 
+00000010 : 
+10101010 : 
+10101000 : 
+01010101 : 
+10101010 : 
+00000010 : 
+10101000 : 
+00101010 : 
+11101010 : 
+10101110 : 
+10100110 : 
+00000100 : 
+$finish called at time : 260 ns : File "D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sim_1/new/ALU_TB.v" Line 73
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1492.609 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 10 17:12:59 2024...

@@ -1,0 +1,501 @@
+
+*** Running vivado
+    with args -log Master_Interface.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Master_Interface.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source Master_Interface.tcl -notrace
+Command: synth_design -top Master_Interface -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20972
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+INFO: [Synth 8-11241] undeclared symbol 'borrow_check_sgt', assumed default net type 'wire' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_SLT.v:31]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1208.125 ; gain = 406.332
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Master_Interface' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Master_Interface.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Clock_Divider.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Clock_Divider.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Instruction_Memory' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:22]
+	Parameter BRAM_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter BRAM_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Instruction_Memory' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Instruction_Decoder' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Decoder.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Instruction_Decoder' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Decoder.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Sign_Extend' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Sign_Extend.v:23]
+	Parameter WIDTH bound to: 26 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Sign_Extend' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Sign_Extend.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Sign_Extend__parameterized0' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Sign_Extend.v:23]
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Sign_Extend__parameterized0' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Sign_Extend.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Control_Path_FSM' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Control_Path_FSM.v:22]
+INFO: [Synth 8-226] default block is never used [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Control_Path_FSM.v:78]
+WARNING: [Synth 8-567] referenced signal 'isHalt' should be on the sensitivity list [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Control_Path_FSM.v:77]
+WARNING: [Synth 8-567] referenced signal 'INTR' should be on the sensitivity list [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Control_Path_FSM.v:77]
+INFO: [Synth 8-6155] done synthesizing module 'Control_Path_FSM' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Control_Path_FSM.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Branch_Control' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Branch_Control.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Branch_Control' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Branch_Control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX_2to1' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_2to1.v:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'MUX_2to1' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_2to1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU_Adder' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Adder.v:22]
+	Parameter SIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'fulladder' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Full_Adder.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'fulladder' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Full_Adder.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_Adder' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Adder.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Program_Counter' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Program_Counter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Program_Counter' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Program_Counter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX_2to1__parameterized0' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_2to1.v:23]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'MUX_2to1__parameterized0' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_2to1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX_3to1' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_3to1.v:23]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'MUX_3to1' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_3to1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RegisterBank' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Register_Bank.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterBank' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Register_Bank.v:25]
+INFO: [Synth 8-6157] synthesizing module 'MUX_3to1__parameterized0' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_3to1.v:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'MUX_3to1__parameterized0' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_3to1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU.v:22]
+	Parameter SIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'MUX_16to1' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_16to1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX_8to1' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_8to1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX_4to1' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_4to1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX_2to1__parameterized1' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_2to1.v:23]
+	Parameter WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'MUX_2to1__parameterized1' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_2to1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_4to1' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_4to1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX_2to1__parameterized2' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_2to1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_2to1__parameterized2' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_2to1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_8to1' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_8to1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_16to1' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_16to1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU_Subtractor' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Subtractor.v:23]
+	Parameter SIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Twos_Complement' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Twos_Complement.v:23]
+	Parameter SIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Twos_Complement' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Twos_Complement.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_Subtractor' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Subtractor.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU_SLT' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_SLT.v:23]
+	Parameter SIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU_SLT' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_SLT.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU_SGT' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_SGT.v:23]
+	Parameter SIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU_SGT' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_SGT.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU_AND' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/AND_8Bit.v:23]
+	Parameter SIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU_AND' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/AND_8Bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU_OR' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/OR_8Bit.v:23]
+	Parameter SIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU_OR' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/OR_8Bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU_XOR' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/XOR_8Bit.v:23]
+	Parameter SIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU_XOR' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/XOR_8Bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU_NEGATION' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/NEG_8Bit.v:23]
+	Parameter SIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU_NEGATION' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/NEG_8Bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU_Barrel_Left' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Barrel_Left.v:22]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU_Barrel_Left' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Barrel_Left.v:22]
+INFO: [Synth 8-6157] synthesizing module 'ALU_Barrel_Right' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Barrel_Right.v:22]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU_Barrel_Right' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Barrel_Right.v:22]
+INFO: [Synth 8-6157] synthesizing module 'ALU_Barrel_Arithmetic_Right' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Barrel_Arith_Right.v:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU_Barrel_Arithmetic_Right' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Barrel_Arith_Right.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU_HAM_32' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_HAM_32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU_Adder__parameterized0' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Adder.v:22]
+	Parameter SIZE bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU_Adder__parameterized0' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Adder.v:22]
+INFO: [Synth 8-6157] synthesizing module 'ALU_Adder__parameterized1' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Adder.v:22]
+	Parameter SIZE bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU_Adder__parameterized1' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Adder.v:22]
+INFO: [Synth 8-6157] synthesizing module 'ALU_Adder__parameterized2' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Adder.v:22]
+	Parameter SIZE bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU_Adder__parameterized2' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Adder.v:22]
+INFO: [Synth 8-6157] synthesizing module 'ALU_Adder__parameterized3' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Adder.v:22]
+	Parameter SIZE bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU_Adder__parameterized3' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Adder.v:22]
+INFO: [Synth 8-6157] synthesizing module 'ALU_Adder__parameterized4' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Adder.v:22]
+	Parameter SIZE bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU_Adder__parameterized4' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_Adder.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_HAM_32' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_HAM_32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU_LUI' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_LUI.v:23]
+	Parameter SIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU_LUI' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_LUI.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU_NOR' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_NOR.v:24]
+	Parameter SIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU_NOR' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU_NOR.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/ALU.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Data_Memory' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Data_Memory.v:22]
+	Parameter BRAM_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter BRAM_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Data_Memory' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Data_Memory.v:22]
+INFO: [Synth 8-6157] synthesizing module 'MUX_4to1__parameterized0' [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_4to1.v:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'MUX_4to1__parameterized0' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/MUX_4to1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Master_Interface' (0#1) [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Master_Interface.v:3]
+WARNING: [Synth 8-3848] Net mem[63] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[62] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[61] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[60] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[59] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[58] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[57] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[56] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[55] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[54] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[53] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[52] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[51] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[50] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[49] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[48] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[47] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[46] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[45] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[44] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[43] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[42] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[41] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[40] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[39] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[38] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[37] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[36] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[35] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[34] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[33] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[32] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[31] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[30] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[29] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[28] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[27] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net mem[26] in module/entity Instruction_Memory does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Instruction_Memory.v:29]
+WARNING: [Synth 8-3848] Net intr in module/entity Master_Interface does not have driver. [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/sources_1/new/Master_Interface.v:31]
+WARNING: [Synth 8-7129] Port in[15] in module ALU_LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in[14] in module ALU_LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in[13] in module ALU_LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in[12] in module ALU_LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in[11] in module ALU_LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in[10] in module ALU_LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in[9] in module ALU_LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in[8] in module ALU_LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in[7] in module ALU_LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in[6] in module ALU_LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in[5] in module ALU_LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in[4] in module ALU_LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in[3] in module ALU_LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in[2] in module ALU_LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in[1] in module ALU_LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in[0] in module ALU_LUI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port func[4] in module Control_Path_FSM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port opcode[5] in module Sign_Extend__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port opcode[4] in module Sign_Extend__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port opcode[3] in module Sign_Extend__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port opcode[2] in module Sign_Extend__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port opcode[5] in module Sign_Extend is either unconnected or has no load
+WARNING: [Synth 8-7129] Port opcode[4] in module Sign_Extend is either unconnected or has no load
+WARNING: [Synth 8-7129] Port opcode[3] in module Sign_Extend is either unconnected or has no load
+WARNING: [Synth 8-7129] Port opcode[2] in module Sign_Extend is either unconnected or has no load
+WARNING: [Synth 8-7129] Port opcode[1] in module Sign_Extend is either unconnected or has no load
+WARNING: [Synth 8-7129] Port opcode[0] in module Sign_Extend is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_n in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[31] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[30] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[29] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[28] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[27] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[26] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[25] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[24] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[23] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[22] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[21] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[20] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[19] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[18] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[17] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[16] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[15] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[14] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[13] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[12] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[11] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[10] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[9] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[8] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[7] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[6] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[5] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[4] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[3] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[2] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[1] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[0] in module Instruction_Memory is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1324.102 ; gain = 522.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1324.102 ; gain = 522.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1324.102 ; gain = 522.309
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 1324.102 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/constrs_1/new/Proc_With_Mem.xdc]
+Finished Parsing XDC File [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/constrs_1/new/Proc_With_Mem.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.srcs/constrs_1/new/Proc_With_Mem.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Master_Interface_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Master_Interface_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1432.793 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 1432.793 ; gain = 0.000
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1432.793 ; gain = 631.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1432.793 ; gain = 631.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1432.793 ; gain = 631.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Control_Path_FSM'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                         00000001 |                              000
+                 iSTATE6 |                         00000010 |                              001
+                 iSTATE0 |                         10000000 |                              010
+                 iSTATE1 |                         01000000 |                              011
+                 iSTATE2 |                         00100000 |                              100
+                 iSTATE3 |                         00010000 |                              101
+                 iSTATE4 |                         00001000 |                              110
+                 iSTATE5 |                         00000100 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'Control_Path_FSM'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1432.793 ; gain = 631.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    6 Bit       Adders := 62    
++---XORs : 
+	   2 Input      1 Bit         XORs := 850   
++---Registers : 
+	               32 Bit    Registers := 95    
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 42    
+	   8 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 7     
+	   2 Input    5 Bit        Muxes := 5     
+	   2 Input    4 Bit        Muxes := 3     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 633   
+	   3 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port wr_n in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[31] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[30] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[29] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[28] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[27] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[26] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[25] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[24] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[23] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[22] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[21] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[20] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[19] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[18] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[17] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[16] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[15] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[14] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[13] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[12] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[11] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[10] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[9] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[8] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[7] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[6] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[5] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[4] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[3] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[2] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[1] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_data_in[0] in module Instruction_Memory is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (control_unit/FSM_onehot_state_reg[2]) is unused and will be removed from module Master_Interface.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 1432.793 ; gain = 631.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:34 . Memory (MB): peak = 1432.793 ; gain = 631.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:35 . Memory (MB): peak = 1432.793 ; gain = 631.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:37 . Memory (MB): peak = 1432.793 ; gain = 631.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:40 . Memory (MB): peak = 1432.793 ; gain = 631.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:40 . Memory (MB): peak = 1432.793 ; gain = 631.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:40 . Memory (MB): peak = 1432.793 ; gain = 631.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:40 . Memory (MB): peak = 1432.793 ; gain = 631.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:40 . Memory (MB): peak = 1432.793 ; gain = 631.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:40 . Memory (MB): peak = 1432.793 ; gain = 631.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |     3|
+|3     |LUT1   |     3|
+|4     |LUT2   |    33|
+|5     |LUT3   |    88|
+|6     |LUT4   |    79|
+|7     |LUT5   |   261|
+|8     |LUT6   |  1817|
+|9     |MUXF7  |   433|
+|10    |MUXF8  |    32|
+|11    |FDCE   |    64|
+|12    |FDRE   |  1987|
+|13    |FDSE   |   106|
+|14    |IBUF   |     7|
+|15    |OBUF   |    16|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:40 . Memory (MB): peak = 1432.793 ; gain = 631.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 35 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 1432.793 ; gain = 522.309
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:40 . Memory (MB): peak = 1432.793 ; gain = 631.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1432.793 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 468 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1432.793 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: ee87b42c
+INFO: [Common 17-83] Releasing license: Synthesis
+107 Infos, 136 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:45 . Memory (MB): peak = 1432.793 ; gain = 1048.223
+INFO: [Common 17-1381] The checkpoint 'D:/Third Year/COA Lab/Processor_With_Memory/RISC_Customized_ALU_Submission/Processor_With_Memory/Processor_With_Memory.runs/synth_1/Master_Interface.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Master_Interface_utilization_synth.rpt -pb Master_Interface_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 13 14:20:46 2024...

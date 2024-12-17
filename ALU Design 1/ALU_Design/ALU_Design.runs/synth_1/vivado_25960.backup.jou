@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Sep  7 00:04:20 2024
+# Process ID: 25960
+# Current directory: D:/Third Year/COA Lab/ALU Design 1/ALU_Design/ALU_Design.runs/synth_1
+# Command line: vivado.exe -log ALU_Ham.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU_Ham.tcl
+# Log file: D:/Third Year/COA Lab/ALU Design 1/ALU_Design/ALU_Design.runs/synth_1/ALU_Ham.vds
+# Journal file: D:/Third Year/COA Lab/ALU Design 1/ALU_Design/ALU_Design.runs/synth_1\vivado.jou
+# Running On: Omkar, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 12, Host memory: 16785 MB
+#-----------------------------------------------------------
+source ALU_Ham.tcl -notrace

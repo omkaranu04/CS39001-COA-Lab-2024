@@ -1,0 +1,18 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot secure_router_tb_behav xil_defaultlib.secure_router_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/Third Year/COA Lab/Verilog Lab3/Extended/strobe.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Third Year/COA Lab/Verilog Lab3/Extended/strobe.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.error_inject
+Compiling module xil_defaultlib.error_correct
+Compiling module xil_defaultlib.secure_router
+Compiling module xil_defaultlib.secure_router_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot secure_router_tb_behav

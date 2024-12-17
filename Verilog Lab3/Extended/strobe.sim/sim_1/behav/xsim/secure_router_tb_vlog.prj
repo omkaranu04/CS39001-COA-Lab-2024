@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../strobe.srcs/sources_1/new/error_correct.v" \
+"../../../../strobe.srcs/sources_1/new/error_inject.v" \
+"../../../../strobe.srcs/sources_1/new/secure_router.v" \
+"../../../../strobe.srcs/sim_1/new/hamm_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/TA/2021 Spring/HWSEC/gcd/gcd.srcs/sources_1/imports/binary_gcd/Mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/TA/2021 Spring/HWSEC/gcd/gcd.srcs/sources_1/imports/binary_gcd/binar_gcd.srcs/sources_1/new/complementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/TA/2021 Spring/HWSEC/gcd/gcd.srcs/sources_1/imports/binary_gcd/binar_gcd.srcs/sources_1/new/controlPath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlPath
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/TA/2021 Spring/HWSEC/gcd/gcd.srcs/sources_1/imports/binary_gcd/binar_gcd.srcs/sources_1/new/gcd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gcd
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/TA/2021 Spring/HWSEC/gcd/gcd.srcs/sources_1/imports/binary_gcd/binar_gcd.srcs/sources_1/new/input_Mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_Mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/TA/2021 Spring/HWSEC/gcd/gcd.srcs/sources_1/imports/binary_gcd/binar_gcd.srcs/sources_1/new/lShift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lShift
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/TA/2021 Spring/HWSEC/gcd/gcd.srcs/sources_1/imports/binary_gcd/binar_gcd.srcs/sources_1/new/rShift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rShift
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/TA/2021 Spring/HWSEC/gcd/gcd.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/TA/2021 Spring/HWSEC/gcd/gcd.srcs/sources_1/substractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module substractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/TA/2021 Spring/HWSEC/gcd/gcd.srcs/sources_1/new/up_down_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module up_down_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/TA/2021 Spring/HWSEC/gcd/gcd.srcs/sim_1/new/simul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simul

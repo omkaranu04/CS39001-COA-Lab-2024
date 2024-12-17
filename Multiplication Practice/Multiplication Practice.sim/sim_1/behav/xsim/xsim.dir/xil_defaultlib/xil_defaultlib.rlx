@@ -1,0 +1,14 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/Third Year/COA Lab/Multiplication Practice/Multiplication Practice.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/Third Year/COA Lab/Multiplication Practice/Multiplication Practice.srcs/sim_1/new/master_test.v,1730141420,verilog,,,,master_test,,,,,,,,
+D:/Third Year/COA Lab/Multiplication Practice/Multiplication Practice.srcs/sources_1/new/Adder.v,1730140596,verilog,,D:/Third Year/COA Lab/Multiplication Practice/Multiplication Practice.srcs/sources_1/new/Comp.v,,Adder,,,,,,,,
+D:/Third Year/COA Lab/Multiplication Practice/Multiplication Practice.srcs/sources_1/new/Comp.v,1730138026,verilog,,D:/Third Year/COA Lab/Multiplication Practice/Multiplication Practice.srcs/sources_1/new/ControlPath.v,,Comp,,,,,,,,
+D:/Third Year/COA Lab/Multiplication Practice/Multiplication Practice.srcs/sources_1/new/ControlPath.v,1730142474,verilog,,D:/Third Year/COA Lab/Multiplication Practice/Multiplication Practice.srcs/sources_1/new/DataPath.v,,ControlPath,,,,,,,,
+D:/Third Year/COA Lab/Multiplication Practice/Multiplication Practice.srcs/sources_1/new/DataPath.v,1730188497,verilog,,D:/Third Year/COA Lab/Multiplication Practice/Multiplication Practice.srcs/sources_1/new/Master.v,,DataPath,,,,,,,,
+D:/Third Year/COA Lab/Multiplication Practice/Multiplication Practice.srcs/sources_1/new/Master.v,1730140255,verilog,,D:/Third Year/COA Lab/Multiplication Practice/Multiplication Practice.srcs/sources_1/new/RegA.v,,Master,,,,,,,,
+D:/Third Year/COA Lab/Multiplication Practice/Multiplication Practice.srcs/sources_1/new/RegA.v,1730139970,verilog,,D:/Third Year/COA Lab/Multiplication Practice/Multiplication Practice.srcs/sources_1/new/RegB.v,,RegA,,,,,,,,
+D:/Third Year/COA Lab/Multiplication Practice/Multiplication Practice.srcs/sources_1/new/RegB.v,1730141174,verilog,,D:/Third Year/COA Lab/Multiplication Practice/Multiplication Practice.srcs/sources_1/new/RegP.v,,RegB,,,,,,,,
+D:/Third Year/COA Lab/Multiplication Practice/Multiplication Practice.srcs/sources_1/new/RegP.v,1730134632,verilog,,D:/Third Year/COA Lab/Multiplication Practice/Multiplication Practice.srcs/sim_1/new/master_test.v,,RegP,,,,,,,,

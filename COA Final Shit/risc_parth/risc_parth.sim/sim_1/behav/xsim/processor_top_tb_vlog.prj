@@ -1,0 +1,39 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/adder_N.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/alu_top.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/and_n.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/cond_branch.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/control.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/data_mem.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/full_adder.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/full_subr.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/half_adder.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/hamming32.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/instruction_mem.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/lui_n.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/mux_16_1.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/mux_2_1.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/mux_4_1.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/nor_n.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/not_n.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/or_n.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/processor_top.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/program_counter.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/program_counter_inc.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/reg_bank.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/sgn_extend.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/sgt_n.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/shift_left.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/shift_right_ar.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/shift_right_log.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/slt_n.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/subr_N.v" \
+"C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/xor_n.v" \
+"../../../../risc_parth.srcs/sim_1/new/processor_top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

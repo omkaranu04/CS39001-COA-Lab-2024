@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a12ticsg325-1L" LaunchTime="1730122585">
+  <File Type="PA-TCL" Name="processor_top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="processor_top_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="processor_top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="processor_top.vds"/>
+  <File Type="RDS-UTIL" Name="processor_top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="processor_top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="processor_top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="processor_top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="processor_top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/adder_N.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/alu_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/and_n.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/cond_branch.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/control.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/data_mem.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/full_adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/full_subr.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/half_adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/hamming32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/instruction_mem.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/lui_n.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/mux_16_1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/mux_2_1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/mux_4_1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/nor_n.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/not_n.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/or_n.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/program_counter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/program_counter_inc.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/reg_bank.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/sgn_extend.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/sgt_n.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/shift_left.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/shift_right_ar.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/shift_right_log.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/slt_n.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/subr_N.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/ALU/xor_n.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/ASUS/OneDrive/Desktop/temp_parth/CS39001-COA-Lab-2024-final_proj/CS39001-COA-Lab-2024-final_proj/final_project/processor_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/instructions.mem">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/data.mem">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/instruction_mem_rom/instruction_mem_rom.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="processor_top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

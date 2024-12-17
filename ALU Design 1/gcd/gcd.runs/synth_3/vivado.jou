@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Feb 10 09:43:10 2020
+# Process ID: 33672
+# Current directory: C:/Siddhartha/Course Work/Hardware Security/gcd/gcd.runs/synth_3
+# Command line: vivado.exe -log gcd.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source gcd.tcl
+# Log file: C:/Siddhartha/Course Work/Hardware Security/gcd/gcd.runs/synth_3/gcd.vds
+# Journal file: C:/Siddhartha/Course Work/Hardware Security/gcd/gcd.runs/synth_3\vivado.jou
+#-----------------------------------------------------------
+source gcd.tcl -notrace

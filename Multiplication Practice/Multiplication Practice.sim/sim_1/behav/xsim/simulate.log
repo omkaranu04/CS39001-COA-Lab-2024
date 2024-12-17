@@ -1,0 +1,26 @@
+Time resolution is 1 ps
+in A :     5
+                   0 X :     x, Y :     x, Z :     x
+                   0 data_in1 :     5, data_in2 :     7
+State : 0, eqZ : x
+State : 1, eqZ : x
+State : 2, eqZ : x
+                  25 X :     5, Y :     x, Z :     x
+in B :     6
+State : 3, eqZ : x
+State : 3, eqZ : 0
+                  35 X :     5, Y :     0, Z :     5
+in B :     5
+                  45 X :     5, Y :     5, Z :    10
+in B :     4
+                  55 X :     5, Y :    10, Z :    15
+in B :     3
+                  65 X :     5, Y :    15, Z :    20
+in B :     2
+                  75 X :     5, Y :    20, Z :    25
+in B :     1
+                  85 X :     5, Y :    25, Z :    30
+in B :     0
+State : 3, eqZ : 1
+                  95 X :     5, Y :    30, Z :    35
+State : 5, eqZ : 1

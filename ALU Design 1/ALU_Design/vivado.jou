@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Sep 10 15:13:37 2024
+# Process ID: 2980
+# Current directory: D:/Third Year/COA Lab/ALU Design 1/ALU_Design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent476 D:\Third Year\COA Lab\ALU Design 1\ALU_Design\ALU_Design.xpr
+# Log file: D:/Third Year/COA Lab/ALU Design 1/ALU_Design/vivado.log
+# Journal file: D:/Third Year/COA Lab/ALU Design 1/ALU_Design\vivado.jou
+# Running On: Omkar, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 12, Host memory: 16785 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Third Year/COA Lab/ALU Design 1/ALU_Design/ALU_Design.xpr}
+set_property simulator_language Verilog [current_project]
+set_property dataflow_viewer_settings "min_width=16"   [current_fileset]
+launch_simulation
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1

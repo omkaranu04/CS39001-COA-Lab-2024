@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Third Year/COA Lab/Verilog Lab3/Extended/strobe.srcs/sources_1/new/error_correct.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module error_correct
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Third Year/COA Lab/Verilog Lab3/Extended/strobe.srcs/sources_1/new/error_inject.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module error_inject
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Third Year/COA Lab/Verilog Lab3/Extended/strobe.srcs/sources_1/new/secure_router.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module secure_router
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Third Year/COA Lab/Verilog Lab3/Extended/strobe.srcs/sim_1/new/hamm_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module secure_router_tb

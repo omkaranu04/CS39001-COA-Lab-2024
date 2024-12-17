@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Tue Sep 10 16:38:30 2024
+# Process ID: 9940
+# Current directory: D:/COA_LAB/Group7/GRP7_KALU_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1488 D:\COA_LAB\Group7\GRP7_KALU_1\ALU_Design_2.xpr
+# Log file: D:/COA_LAB/Group7/GRP7_KALU_1/vivado.log
+# Journal file: D:/COA_LAB/Group7/GRP7_KALU_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.xpr
+launch_simulation
+export_ip_user_files -of_objects  [get_files D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Shift_Left.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Shift_Right_Arithmetic.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Shift_Right_Logical.v] -no_script -reset -force -quiet
+remove_files  {D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Shift_Left.v D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Shift_Right_Arithmetic.v D:/COA_LAB/Group7/GRP7_KALU_1/ALU_Design_2.srcs/sources_1/new/ALU_Shift_Right_Logical.v}
+launch_simulation
+source ALU_TB.tcl
+close_sim
+launch_simulation
+source ALU_TB.tcl
+close_sim

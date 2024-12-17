@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Single_Bit_Error_Correction.srcs/sources_1/new/error_correct.v" \
+"../../../../Single_Bit_Error_Correction.srcs/sources_1/new/error_inject.v" \
+"../../../../Single_Bit_Error_Correction.srcs/sources_1/new/master.v" \
+"../../../../Single_Bit_Error_Correction.srcs/sources_1/new/secure_router.v" \
+"../../../../Single_Bit_Error_Correction.srcs/sources_1/new/master_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
